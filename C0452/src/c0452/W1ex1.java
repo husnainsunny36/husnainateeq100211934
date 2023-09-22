@@ -8,7 +8,7 @@ package c0452;
  *
  * @author 100211934
  */
-public class C0452 {
+public class W1ex1 {
 
     /**
      * @param args the command line arguments
