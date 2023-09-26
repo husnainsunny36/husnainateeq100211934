@@ -6,10 +6,6 @@ package c0452;
 
 import java.util.Scanner;
 
-/**
- *
- * @author ahint
- */
 public class W1ex2 {
     public static void main(String[] args) {
         Scanner user = new Scanner(System.in);
