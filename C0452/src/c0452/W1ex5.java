@@ -22,6 +22,6 @@ public class W1ex5 {
         FirstNumber = SecondNumber;
         SecondNumber = temp;
         System.out.println("Swapped:" +FirstNumber + "," + SecondNumber);
-         }
+    }
 }
 

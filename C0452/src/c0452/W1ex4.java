@@ -18,6 +18,6 @@ public class W1ex4 {
         int Number2 = number.nextInt();
          double Average = (Number1+Number2) / 2.0;
         System.out.println("Average of " + Number1 + " and " + Number2 + " is:" + Average);
-  }
+    }
 }
 
