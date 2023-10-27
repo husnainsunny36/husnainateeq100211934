@@ -166,11 +166,11 @@ public class Song {
         String artistName = scanner.nextLine();
         System.out.print("Enter the playcount of the song: ");
         int playCount = scanner.nextInt();
-        Song xyz=new Song();
-        xyz.songTitle=songTitle;
-        xyz.playCount=playCount;
-        xyz.artistName=artistName;
-        playList.add(xyz);
+        Song song=new Song();
+        song.songTitle=songTitle;
+        song.playCount=playCount;
+        song.artistName=artistName;
+        playList.add(song);
         System.out.println("Press \"ENTER\" to continue...");
         scanner.nextLine();
     }
@@ -182,12 +182,14 @@ public class Song {
         System.out.printf("================================================================================%n");
         System.out.printf("| %-30s | %-20s | %-20s |%n", "SONG NAME", "ARTIST NAME", "PLAYCOUNT");
         System.out.printf("================================================================================%n");
-        for(int i = 0; i< playList.size(); i++) {
-            if(playCount == playList.get(i).getPlayCount()) {
-                System.out.printf("| %-30s | %-20s | %-20d |%n", playList.get(i).getSongTitle(), playList.get(i).getArtistName(),  playList.get(i).getPlayCount());
-            }
-        }
+        for (int i = 0; i < playList.size(); i++) {
+    if (playList.get(i).getPlayCount() >= playCount) {
+        System.out.printf("| %-30s | %-20s | %-20d |%n", playList.get(i).getSongTitle(), playList.get(i).getArtistName(), playList.get(i).getPlayCount());
+    }
+}
+            
+        
         System.out.println("Press \"ENTER\" to continue...");
         scanner.nextLine();
-    }
+}
 }
