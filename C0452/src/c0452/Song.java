@@ -1,3 +1,9 @@
+/**
+ *
+ * @author husna
+ * version 1.27
+ */
+
 import java.util.ArrayList;
 import java.util.Scanner;
  
